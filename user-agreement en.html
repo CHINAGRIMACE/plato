@@ -1,0 +1,683 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>user-agreement.en</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: undefined; }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-translucentGray { background-color: undefined; }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="20f8c89d-3b74-8096-b679-c71ee127c5f7" class="page sans"><header><h1 class="page-title"><strong>user-agreement</strong>.en</h1><p class="page-description"></p></header><div class="page-body"><h2 id="20f8c89d-3b74-8080-8f68-d4efa40e41ca" class=""><strong>User Agreement</strong></h2><p id="20f8c89d-3b74-80e6-a840-c247f6d42efc" class=""><strong>Last Updated: June 12, 2025</strong></p><p id="20f8c89d-3b74-8029-9055-e4bc99d4e877" class="">Welcome to the Plato Camera App (hereinafter referred to as “the App”). This User Agreement (hereinafter referred to as “Agreement”) is a legally binding contract between you and the developer of this App (hereinafter referred to as “we” or “us”) regarding your download, installation, and use of the App.</p><p id="20f8c89d-3b74-804c-ae78-e725032df0d3" class="">Please read this Agreement carefully before using the App. By downloading, installing, or using the App, you acknowledge that you have read, understood, and agreed to be bound by all terms of this Agreement. If you do not agree to any part of this Agreement, please do not download, install, or use the App.</p><blockquote id="20f8c89d-3b74-80dc-b3c4-f86737cae96e" class="">Note</blockquote><blockquote id="20f8c89d-3b74-801a-b783-d42c4147cd54" class="">This App is available in app stores in various countries and regions. Please ensure that the version you use is appropriate for your jurisdiction or region.</blockquote><hr id="20f8c89d-3b74-8031-9b83-e9647bea24b2"/><h3 id="20f8c89d-3b74-8016-a11c-f6dd4a86a89d" class=""><strong>1. Services Provided</strong></h3><p id="20f8c89d-3b74-8008-bc79-c0ba4ee83015" class="">1.1 The App is a photography tool designed to offer film-style filters, simulated camera types, photo editing features, and other photography-related functions.</p><p id="20f8c89d-3b74-80da-a572-f98aba27ad41" class="">1.2 We reserve the right to modify, suspend, or discontinue parts or all of the App’s features as necessary. We may pause or restrict access due to upgrades, maintenance, or other reasons, without liability to you.</p><hr id="20f8c89d-3b74-8054-af64-e6084624c27f"/><h3 id="20f8c89d-3b74-8073-b302-e2b958b6be42" class=""><strong>2. User Accounts and Security</strong></h3><p id="20f8c89d-3b74-80d7-a1c5-cf0f0ec0b1de" class="">2.1 The App does not currently require user account registration for its basic features.</p><p id="20f8c89d-3b74-80d5-baa1-c3f7eeefeb8b" class="">2.2 You are responsible for the security of your device and access credentials and shall be liable for all operations conducted on your device.</p><hr id="20f8c89d-3b74-80bc-9464-d36170d3be72"/><h3 id="20f8c89d-3b74-804a-97b9-e6eb1f10a956" class=""><strong>3. Protection of Personal Information</strong></h3><p id="20f8c89d-3b74-8041-96a4-f2f30d3d1849" class="">3.1 We value your privacy. Your personal information will be handled in accordance with this Agreement and our Privacy Policy.</p><p id="20f8c89d-3b74-809f-8fec-fe3463ba1ae8" class="">3.2 The App may request permissions to access:</p><ul id="20f8c89d-3b74-8007-bb6c-ebf5c3b08156" class="bulleted-list"><li style="list-style-type:disc"><strong>Camera</strong>: for taking photos.</li></ul><ul id="20f8c89d-3b74-808c-9221-c814631c6f62" class="bulleted-list"><li style="list-style-type:disc"><strong>Photo Library</strong>: for saving and editing images.</li></ul><ul id="20f8c89d-3b74-80f3-ba22-c5a9fe5921a7" class="bulleted-list"><li style="list-style-type:disc"><strong>Location</strong> (optional): to tag photos with geolocation data. This can be disabled in your device settings.</li></ul><p id="20f8c89d-3b74-8041-8541-c3ab16f4c452" class="">3.3 You may manage these permissions at any time in your device’s system settings. Declining certain permissions may affect the availability of corresponding features.</p><p id="20f8c89d-3b74-8054-8ee5-fdff643d1a34" class="">3.4 By default, photos taken using the App are stored locally. If the “Save to System Album” option is enabled, photos will also be saved to your device’s system photo album.</p><p id="20f8c89d-3b74-8011-aea2-dc630d1409c9" class="">3.5 The App does not upload your photos to any server. All photo processing is performed locally on your device.</p><hr id="20f8c89d-3b74-800d-a601-ffa4d16dcdf1"/><h3 id="20f8c89d-3b74-80e9-bd6c-ca721770b5c8" class=""><strong>4. User Conduct</strong></h3><p id="20f8c89d-3b74-807d-9b17-e08a8dfb3f91" class="">4.1 You must comply with all applicable laws and regulations in your jurisdiction and must not use the App for any unlawful or inappropriate activities, including but not limited to:</p><ul id="20f8c89d-3b74-80dd-9104-e71231ebe0e7" class="bulleted-list"><li style="list-style-type:disc">Violations of intellectual property, privacy, or portrait rights;</li></ul><ul id="20f8c89d-3b74-80a8-885a-c1fe2bc9952e" class="bulleted-list"><li style="list-style-type:disc">Creating or distributing illegal, obscene, violent, or offensive content;</li></ul><ul id="20f8c89d-3b74-80a1-8b15-fbb5f05f51fb" class="bulleted-list"><li style="list-style-type:disc">Any other actions prohibited by applicable laws or social norms.</li></ul><p id="20f8c89d-3b74-8012-a5ac-c98e7bac20a1" class="">4.2 We reserve the right to take appropriate action, including but not limited to removing content or suspending services, in response to any violations.</p><hr id="20f8c89d-3b74-80bc-bfe0-c154bbbaa999"/><h3 id="20f8c89d-3b74-8030-81a0-c1a83aa11593" class=""><strong>5. Intellectual Property</strong></h3><p id="20f8c89d-3b74-80cd-a838-dad6f25131de" class="">5.1 All content within the App, including but not limited to software, technologies, designs, interfaces, and filter effects, is protected by intellectual property laws.</p><p id="20f8c89d-3b74-8039-b6c7-c9d5744f9ef1" class="">5.2 You may not copy, modify, distribute, or sell any part of the App without our explicit written consent.</p><p id="20f8c89d-3b74-80c5-b1f7-f321db0e96a3" class="">5.3 Photos captured or edited using the App are owned by you and may be used freely.</p><hr id="20f8c89d-3b74-809a-8679-d9c7117088d0"/><h3 id="20f8c89d-3b74-8032-8d74-f833ba923f04" class=""><strong>6. Disclaimer</strong></h3><p id="20f8c89d-3b74-8063-8ed1-f54193010a94" class="">6.1 The App is provided “as is.” We make no warranties regarding the suitability, reliability, accuracy, completeness, or effectiveness of the App.</p><p id="20f8c89d-3b74-8082-99ab-dcf6833476a6" class="">6.2 We are not responsible for interruptions caused by network conditions, system updates, or third-party changes.</p><p id="20f8c89d-3b74-805f-8674-fddb11b8ef96" class="">6.3 You are responsible for backing up important photos. We shall not be liable for data loss caused by device issues, crashes, or other unforeseen events.</p><p id="20f8c89d-3b74-80d1-9a6d-eefeea23104b" class="">6.4 The film-style filters in the App are artistic simulations based on technical understanding of analog photography. They do not exactly replicate the imaging characteristics of real film brands or models.</p><p id="20f8c89d-3b74-8049-8ec0-cf25c914613e" class="">6.5 Some filters may use visual elements such as film canisters or packaging for illustrative purposes. If any content is deemed to infringe intellectual property rights, we reserve the right to modify or remove it without notice.</p><hr id="20f8c89d-3b74-807d-9c48-e9747f26101f"/><h3 id="20f8c89d-3b74-807a-a5fa-c503de47fefa" class=""><strong>7. Modification of the Agreement</strong></h3><p id="20f8c89d-3b74-8048-8b21-d72cca6138f6" class="">7.1 We reserve the right to modify this Agreement at any time. Updates will be announced within the App or through other appropriate channels.</p><p id="20f8c89d-3b74-8041-b66b-e4db9188569e" class="">7.2 If you do not agree to the revised Agreement, you should stop using the App. Continued use constitutes acceptance of the new terms.</p><hr id="20f8c89d-3b74-80f4-a710-cf157d1e82bd"/><h3 id="20f8c89d-3b74-8088-94bb-e78bf7142df8" class=""><strong>8. Governing Law and Dispute Resolution</strong></h3><p id="20f8c89d-3b74-80fe-9b95-dc69039342dc" class="">8.1 This Agreement shall be governed by the applicable laws of your jurisdiction. If no mandatory local law applies, the governing law shall be that of our principal place of business.</p><p id="20f8c89d-3b74-80a3-bc86-f58945c50fb6" class="">8.2 Any disputes arising from this Agreement or the App shall be resolved through amicable negotiation. If negotiations fail, the dispute shall be submitted to a competent court at our principal place of business.</p><hr id="20f8c89d-3b74-80c7-aee6-d81a24c02735"/><h3 id="20f8c89d-3b74-80fd-a634-c7a218e1e504" class=""><strong>9. Subscription and Refund Policy</strong></h3><p id="20f8c89d-3b74-8014-bcb0-ee57af9c1208" class="">9.1 The App offers a subscription service with access to premium features and filters. Payments and refunds are handled in accordance with Apple App Store policies.</p><p id="20f8c89d-3b74-8040-ba43-e99473602949" class="">9.2 Subscriptions may be monthly or yearly and will automatically renew unless canceled at least 24 hours before the end of the current period.</p><p id="20f8c89d-3b74-8010-af65-c1b3c2c021f9" class="">9.3 You can manage or cancel your subscription through your App Store account settings.</p><p id="20f8c89d-3b74-8044-93d4-e7bc5246c182" class="">9.4 A 7-day free trial may be available for new users. If you do not cancel within the trial period, it will convert into a paid subscription.</p><p id="20f8c89d-3b74-80d1-967f-cb888669490d" class="">9.5 Once a subscription is purchased, refunds are generally not provided unless required by applicable law. For assistance, please contact Apple Support.</p><hr id="20f8c89d-3b74-80dc-a624-e37c5c2196c4"/><h3 id="20f8c89d-3b74-8081-8713-ccc08ec38278" class=""><strong>10. Other Terms</strong></h3><p id="20f8c89d-3b74-8048-91b9-c46e9641d5fe" class="">10.1 Headings in this Agreement are for convenience only and shall not affect interpretation.</p><p id="20f8c89d-3b74-80fa-91e6-fa7f68dbff27" class="">10.2 If any provision is deemed invalid or unenforceable, the remaining provisions shall remain in full force.</p><p id="20f8c89d-3b74-8077-94c2-df9f8aaac731" class="">10.3 This Agreement becomes effective upon your download, installation, or use of the App, and remains in effect until you uninstall the App or we terminate the service.</p><hr id="20f8c89d-3b74-8017-8087-e6a4e63e5cb3"/><h3 id="20f8c89d-3b74-807a-bbdb-e643def18199" class=""><strong>Contact Us</strong></h3><p id="20f8c89d-3b74-80f7-beaf-f80ff977786f" class="">If you have any questions about this Agreement or the App, please contact us at:</p><p id="20f8c89d-3b74-8086-8119-f52868e86e23" class=""><a href="mailto:bucongming1979@gmail.com">bucongming1979@gmail.com</a></p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
