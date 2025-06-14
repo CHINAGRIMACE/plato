@@ -3,31 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy / 用户隐私政策</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif;
-      max-width: 600px;
-      margin: 4rem auto;
-      padding: 0 1rem;
-      line-height: 1.6;
-    }
-    h1 {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    ul {
-      padding-left: 1.5rem;
-    }
-    a {
-      text-decoration: none;
-      color: #007aff;
-      font-weight: 500;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 <body>
   <h1>Privacy Policy / 用户隐私政策</h1>
